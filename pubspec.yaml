@@ -1,0 +1,30 @@
+name: namer_app
+description: A film camera simulator app.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  image: ^4.1.7
+  permission_handler: ^11.3.0
+  provider: ^6.1.2
+  image_picker: ^1.0.7  # 用於處理相片
+  shared_preferences: ^2.2.2  # 用於儲存相片路徑
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
