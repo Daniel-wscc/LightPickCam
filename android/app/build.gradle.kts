@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.filmcamera.app"
+    namespace = "io.lightpickcam.app"
     compileSdk = 35  // 更新到 Android SDK 35
     ndkVersion = "27.0.12077973" // 使用較穩定的 NDK 版本
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.filmcamera.app"
+        applicationId = "io.lightpickcam.app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 21     // 設置最低支援版本

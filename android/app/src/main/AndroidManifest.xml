@@ -6,11 +6,11 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
     
     <application
-        android:label="底片相機"
+        android:label="拾光相機"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="com.example.flutter_application_1.MainActivity"
+            android:name="io.lightpickcam.app.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
